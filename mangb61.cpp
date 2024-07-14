@@ -18,4 +18,27 @@ int main(){
 	}
 	cout << sum ;
 	
+}////// tu code lai 
+#include<iostream>
+using namespace std;
+int main(){
+	int n;
+	cin >> n ;
+	int sum ;
+	sum =0;
+	int arr[n];
+	for(int i=0;i<sizeof(arr)/sizeof(int );i++){
+		cin >> arr[i];
+	}
+       
+	for(int i=0;i<sizeof(arr)/sizeof(int);i++){
+	if(i==0||i==n-1){
+	sum =sum +arr[i];	
+	}
 }
+	cout << sum ; 
+	return 0;
+}
+
+
+
